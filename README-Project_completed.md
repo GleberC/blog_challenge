@@ -33,7 +33,7 @@ Users should be able to:
 <!-- colocar links -->
 
 - Solution URL: [blog_Challenge](https://github.com/GleberC/blog_challenge)
-- Live Site URL: [Blog](https://gleberc.github.io/blog_challenge/)
+- Live Site URL: [Blog](https://blog-challenge-six.vercel.app/)
 
 ## My process
 
