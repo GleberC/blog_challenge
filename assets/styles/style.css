@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+body{
+    font-family: 'figtree', serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    height: 960px;
+    
+
+
+}
+
+main{
+    background-color:  hsl(0, 0%, 100%);
+    border: solid hsl(0, 0%, 7%) 1px;
+    width: 384px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 20px;
+    padding: 24px 24px 0px 24px;
+    gap: 24px;
+    box-shadow: 10px 10px  hsl(0, 0%, 7%);
+    
+}
+
+
+
+.Code_image{
+    border-radius: 10px;
+}
+
+.box{
+    background-color: hsl(47, 88%, 63%) ;
+    width: 82px;
+    height: 29px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    
+   
+}
+
+ .caixa_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+} 
+
+.publicacao{
+    font-size: 14px;
+    font-weight: normal;
+}
+.way{
+    color: hsl(0, 0%, 7%) ;
+    text-decoration: solid;
+    padding: 12px 0px 12px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.texto{
+    font-size: 16px;
+    font-weight: normal
+}
+.author{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    gap: 12px;
+    
+}
+.greg_foto{
+    width: 32px;
+    height: 32px;
+}
+.author_name{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.way:hover{
+    color: hsl(47, 88%, 63%) ;
+}
+
+
+
+
+
+.attribution {
+     font-size: 11px;
+      text-align: center; 
+      margin-top: 150px;
+      
+    }
+.attribution a { 
+    color: hsl(0, 0%, 100%); }
+
+
+    @media (max-width:900px) {
+    
+        body {
+            width: 800px;
+          
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+@media (max-width:500px) {
+    
+    body {
+        width: 375px;
+        height: 812px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main{
+      
+        width: 320px;
+        height: 501px;  
+    }
+    
+    .box{
+        background-color: hsl(47, 88%, 63%) ;
+        width: 73px;
+        height: 26px;
+        padding: 4px 12px;
+        border-radius: 3px;
+        font-size: 12px;
+        font-weight: bold;
+        
+       
+    }
+    
+     .caixa_texto{
+        width: 272px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    
+    } 
+    
+    .publicacao{
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .way{
+        color: hsl(0, 0%, 7%) ;
+        text-decoration: solid;
+        padding: 12px 0px 12px 0px;
+        font-size: 20px;
+        font-weight:bold;
+        cursor: pointer;
+    }
+    .texto{
+        font-size: 14px;
+        font-weight: normal
+    }
+
+
+}
