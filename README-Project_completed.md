@@ -32,8 +32,8 @@ Users should be able to:
 ### Links
 <!-- colocar links -->
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [blog_Challenge](https://github.com/GleberC/blog_challenge)
+- Live Site URL: [Blog](https://gleberc.github.io/blog_challenge/)
 
 ## My process
 
